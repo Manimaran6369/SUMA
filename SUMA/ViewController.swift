@@ -13,6 +13,9 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        print("hy")
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return num.count
     }
