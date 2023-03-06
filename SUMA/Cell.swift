@@ -9,4 +9,8 @@ import UIKit
 
 class Cell: UICollectionViewCell {
     
+    override class func awakeFromNib() {
+        print("hello")
+    }
+    
 }
